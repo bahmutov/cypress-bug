@@ -5,13 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "cypress-repeat run -n 10"
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "cypress": "^4.3.0",
+    "cypress": "6.0.0",
     "next": "9.3.3",
     "react": "16.13.1",
     "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "cypress-repeat": "2.2.1"
   }
 }
