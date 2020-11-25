@@ -1,3 +1,5 @@
+Read the blog post [Repeat Test to Fight Flake](https://glebbahmutov.com/blog/repeat-to-fight-flake/)
+
 This repository reproduces the bug in [cypress](https://www.cypress.io/)
 
 ## Steps to reproduce
